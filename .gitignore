@@ -1,0 +1,5 @@
+.artwork
+.DS_Store
+*.pyc
+.venv
+*.sqlite3
