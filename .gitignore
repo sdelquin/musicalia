@@ -1,0 +1,6 @@
+.artwork
+.DS_Store
+*.pyc
+.venv
+*.sqlite3
+.python-version

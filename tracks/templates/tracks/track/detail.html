@@ -1,0 +1,20 @@
+{% extends "tracks/base.html" %}
+
+{% block subtitle %}{{ track.name }}{% endblock %}
+
+{% block contents %}
+<table>
+  <tr>
+    <th>Nombre</th>
+    <td>{{ track.name }}</td>
+  </tr>
+  <tr>
+    <th>Cantante</th>
+    <td>{{ track.singer }}</td>
+  </tr>
+  <tr>
+    <th>Duración</th>
+    <td>{{ track.length }} minutos</td>
+  </tr>
+</table>
+{% endblock %}

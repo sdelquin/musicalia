@@ -1,0 +1,11 @@
+{% extends "tracks/base.html" %}
+
+{% block subtitle %}Lista{% endblock %}
+
+{% block contents %}
+<ul>
+  {% for track in tracks %}
+    <li><a href="{% url 'tracks:track_detail' track.pk %}">{{ track }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
