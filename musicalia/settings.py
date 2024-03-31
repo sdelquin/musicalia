@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tracks.apps.TracksConfig'
+    'tracks.apps.TracksConfig',
+    'artists.apps.ArtistsConfig',
 ]
 
 MIDDLEWARE = [
