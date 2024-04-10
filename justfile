@@ -10,3 +10,12 @@
 
 @check:
     python manage.py check
+
+makemigrations app="":
+    python manage.py makemigrations {{ app }}
+
+migrate app="":
+    python manage.py migrate {{ app }}
+
+showmigrations app="":
+    python manage.py showmigrations {{ app }}
